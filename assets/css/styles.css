@@ -1,0 +1,157 @@
+html, body {
+  font-family: "ff-providence-web-pro-1", "ff-providence-web-pro-2", Georgia, serif;
+  font-size: 22px;
+  color: black;
+  background: #c64444 url(../images/texture.jpg) repeat 50% 0; }
+
+body {
+  width: 800px;
+  margin: 0 auto; }
+
+a, a:visited {
+  color: white;
+  text-decoration: underline;
+  text-shadow: 0 -1px 1px black; }
+
+.light {
+  color: white;
+  text-shadow: 0 1px 1px black; }
+
+.caps {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1.3em; }
+
+.indented {
+  padding-left: 40px; }
+
+.spaced {
+  display: block;
+  float: left;
+  width: 120px; }
+
+.invisible {
+  visibility: hidden; }
+
+header #logo {
+  width: 163px;
+  height: 270px;
+  background: transparent url(../images/logo.png) no-repeat;
+  margin: 20px auto 30px; }
+header #register-button {
+  display: block;
+  width: 150px;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 10px 30px;
+  background: white url(../images/diagStripeBG.png) repeat;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: none;
+  color: black;
+  margin: 0 auto 30px;
+  -webkit-box-shadow: 1px 1px 2px black;
+  -moz-box-shadow: 1px 1px 2px black;
+  box-shadow: 1px 1px 2px black;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px; }
+header #register-button:active {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none; }
+header #about, header #coc {
+  text-transform: uppercase;
+  text-align: center; }
+
+section {
+  margin: 10px 0 0;
+  padding: 85px 0 0; }
+
+.slogan {
+  text-align: center;
+  margin-top: 0;
+  background: transparent url(../images/lines1.png) no-repeat 50% 0;
+  font-size: 1.1em;
+    font-size-line-height: 1.1em;
+    font-size-margin: 0 0 20px; }
+
+.details {
+  background: transparent url(../images/lines2.png) no-repeat 50% 0; }
+
+.sponsors {
+  background: transparent url(../images/lines3.png) no-repeat 50% 0; }
+  .sponsors .you {
+    color: black;
+    text-shadow: none; }
+  .sponsors #inm {
+    display: inline-block;
+    width: 200px;
+    height: 70px;
+    background: transparent url(../images/inm.png) no-repeat 50% 50%;
+    position: relative;
+    top: 13px; }
+  .sponsors #mdlogix {
+    display: inline-block;
+    width: 200px;
+    height: 70px;
+    background: transparent url(../images/mdlogix.png) no-repeat 50% 50%;
+    position: relative;
+    margin-left: 10px;
+    top: 13px; }
+  .sponsors #smartlogic {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    background: transparent url(../images/smartlogic_logo.png) no-repeat 50% 50%;
+    position: relative;
+    top: 13px; }
+  .sponsors #tripledogdare {
+    display: inline-block;
+    width: 220px;
+    height: 40px;
+    background: transparent url(../images/tdd_logo.png) no-repeat 50% 50%;
+    position: relative;
+    top: 9px; }
+  .sponsors #twoguys {
+    display: inline-block;
+    width: 125px;
+    height: 40px;
+    background: transparent url(../images/twoguys_logo.png) no-repeat 50% 50%;
+    position: relative;
+    top: 9px; }
+  .sponsors #fool {
+    display: inline-block;
+    width: 220px;
+    height: 42px;
+    background: transparent url(../images/motleyfool2.png) no-repeat 50% 50%;
+    position: relative;
+    top: 13px; }
+
+.agenda {
+  background: transparent url(../images/lines4.png) no-repeat 50% 0; }
+  .agenda ul {
+    margin: 20px 0; }
+    .agenda ul .time {
+      display: block;
+      float: left;
+      width: 120px; }
+  .agenda a {
+    color: black;
+    text-shadow: none; }
+  .agenda a:hover {
+    color: white; }
+
+.coc, .about h1 {
+  font-size: 1.7em; }
+.coc, .about h2 {
+  font-size: 1.4em; }
+.coc, .about h3 {
+  font-size: 1.25em; }
+
+footer {
+  background: transparent url(../images/lines5.png) no-repeat 50% 0;
+  padding: 60px 0 30px; }
+
+.margin_bottom {
+  margin-bottom: 40px; }
